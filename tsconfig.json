@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // 目标JS版本
+    "module": "ESNext", // 使用ES模块，配合package.json "type": "module"
+    "moduleResolution": "node",
+    "outDir": "./dist", // 编译输出目录
+    "rootDir": "./src", // 源码目录
+    "esModuleInterop": true, // 允许默认导入CommonJS模块
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // 开启严格类型检查
+    "skipLibCheck": true // 跳过库文件检查，提升编译速度
+  },
+  "include": ["src/**/*"]
+}
